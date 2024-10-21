@@ -1,6 +1,5 @@
-
-# RNA Structure Coordinates Translation Across the Meiotic Program
 # Script for data processing and analysis
+RNA Structure Coordinates Translation Across the Meiotic Program
 
 # Software/Package Prerequisites 
 ## Processing
