@@ -33,7 +33,10 @@ rule split_bam:
         shell('samtools view -b -f 64 -F 32 {input} > {output[1]}')
         shell('samtools view -b -f 144 {input} > {output[2]}')
         shell('samtools view -b -f 96 {input} > {output[3]}')
-        
+        # shell('samtools view -b -f 128 -F 16 {input} > {output[0]}') # fwd2
+        # shell('samtools view -b -f 64 -F 32 {input} > {output[1]}') # fwd1
+        # shell('samtools view -b -f 80 {input} > {output[2]}')        # rev1
+        # shell('samtools view -b -f 96 {input} > {output[3]}')        # rev2     
 rule merge_bam:
     input:
         'stranded/RNAstructure/bt2/pb_{timepoint}{modification}_{repeat}.fwd1.bam',
