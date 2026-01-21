@@ -1,4 +1,4 @@
-# RNA Structure Coordinates Translation Across the Meiotic Program
+# [RNA Structure Coordinates Translation Across the Meiotic Program](https://www.biorxiv.org/content/10.64898/2026.01.15.699792v1)
 
 ## Software and Package Requirements
 
@@ -37,7 +37,7 @@ The following packages are required to run the notebooks:
 
 ---
 
-# Programmed Double-Stranded RNA Formation Enables Meiotic Stage Transitions
+# [Programmed Double-Stranded RNA Formation Enables Meiotic Stage Transitions](https://www.biorxiv.org/content/10.64898/2026.01.20.700650v1)
 
 ## Software and Package Requirements
 
